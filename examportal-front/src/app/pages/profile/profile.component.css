@@ -1,0 +1,30 @@
+.menu-item {
+    display: flex;
+    align-items: center;
+}
+.profile-image{
+    max-width: 150px;
+    max-height: 150px;
+    /* border: 2px solid #3f51b5;
+    border-radius: 80%; */
+}
+.table{
+    width: 100%;
+    border-collapse: collapse;
+    box-shadow: 5px 5px 5px  #3489EB;
+    border-radius: 10px;
+    
+}
+.table tr td{
+    padding: 10px 20px;
+    /* border: 1px; */
+    /* border: 1px solid #3489EB ; */
+    border: 0.5px solid #3489EB ;
+
+}
+.text-center{
+    text-align: center;
+}
+#but{
+    justify-content: center;
+}

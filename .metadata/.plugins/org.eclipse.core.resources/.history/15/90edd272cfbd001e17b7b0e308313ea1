@@ -1,0 +1,5 @@
+package com.project.examportal.entity.exam;
+
+public class Category {
+
+}

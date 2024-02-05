@@ -1,0 +1,19 @@
+mat-icon{
+    padding-top: 3px;
+    /* margin-top: 10px; */
+    /* padding-left: 10px; */
+
+}
+/* .sidebar{
+    background-color: #3489EB;
+}
+.sidebar mat-list-item :hover{
+    background-color: #EEF4ED;
+} */
+mat-card{
+    background-color: #EEF4ED;
+}
+.nav:hover{
+    background-color: #3489eb;
+    }
+    

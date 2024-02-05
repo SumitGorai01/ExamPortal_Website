@@ -1,0 +1,9 @@
+package com.project.examportal.repository;
+
+import org.springframework.data.jpa.repository.JpaRepository;
+
+import com.project.examportal.entity.exam.Question;
+
+public interface QuestionRepository extends JpaRepository<Question, Long>{
+
+}

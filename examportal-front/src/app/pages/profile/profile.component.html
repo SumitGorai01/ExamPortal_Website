@@ -1,0 +1,53 @@
+<mat-card *ngIf="user">
+     <h1 style="margin: 20px;">Your Profile Details</h1>
+     <!-- {{user | json }} -->
+     <mat-card-content>
+       
+        <div class="bootstrap-wrapper">
+            <div class="container">
+
+                <div class="container text-center">
+
+                    <img src="https://st3.depositphotos.com/15648834/17930/v/600/depositphotos_179308454-stock-illustration-unknown-person-silhouette-glasses-profile.jpg" alt="" class="profile-image">
+                    <h1 class="mt20">Name :  {{login.getUser().firstName}} {{login.getUser().lastName}} </h1>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-10 offset-md-1">
+                        <mat-card>                 
+                        <table class="table text-center"> 
+                            <tr>
+                                <td>Username</td>
+                                <td>{{login.getUser().username}}</td>
+                            </tr>
+                            <tr>
+                                <td>User ID</td>
+                                <td>{{login.getUser().userId}}</td>
+                            </tr>
+                           
+                            <tr>
+                                <td>Phone Number</td>
+                                <td>{{login.getUser().phone}}</td>
+                            </tr>
+                            <tr>
+                                <td>Status</td>
+                                <td>{{login.getUser().enabled?"ACTIVE":"NOT ACTIVE"}}</td>
+                            </tr>
+                            <tr>
+                                <td>Role</td>
+                                <td>{{login.getUser().authorities[0].authority}}</td>
+                            </tr>
+                        </table>
+                    </mat-card>
+                    </div>
+                </div>
+            </div>
+        </div>        
+     </mat-card-content>
+     <!-- <div class="container "> -->
+     <mat-card-actions class="text-center mt10" id="but">
+        <button mat-raised-button color="primary" class="mr20" > UPDATE </button>
+        <button mat-raised-button color="accent"> SHARE </button>
+     </mat-card-actions>
+    <!-- </div> -->
+</mat-card>

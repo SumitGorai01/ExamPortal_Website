@@ -1,0 +1,55 @@
+
+  /* .alignment{
+    justify-content: center;
+  }
+  .alignment-right{
+    text-align: right;
+    justify-content: space-between;
+    float: right;
+  } */
+  /* .example-spacer {
+    flex: 1 1 auto;
+  }
+  .text-center{
+    text-align: center;
+  }
+  .nav{
+    background-color: #3489EB;
+    color: rgb(3, 3, 3);
+  } */
+  
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@900&display=swap');
+
+  mat-icon{
+  font-size: 1em; 
+
+  }
+.logo{
+   
+  font-family: 'Roboto', sans-serif;
+  font-weight: bold;
+  font-size:35px;
+}
+
+span #p{   
+  color: #3489eb;
+}
+.example-spacer {
+    flex: 1 1 auto;
+  }
+  .nav{
+    font-size: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+  
+.nav:hover{
+background-color: #3489eb;
+}
+.book:hover{
+background-color: #3489eb;
+}
+

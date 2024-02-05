@@ -1,0 +1,44 @@
+.col img{
+    width:60%;
+    height: auto;
+    background-color: #EEF4ED;
+}
+
+.wlcm{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    font-size:40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+     color: rgb(52,137,235); 
+    color: linear-gradient(90deg, rgba(52,137,235,1) 0%, rgba(144,189,231,1) 35%, rgba(238,244,237,1) 100%); 
+}
+
+.display_text{
+    font-family: 'Roboto', sans-serif;
+    font-weight:bold;
+    font-size: 40px;
+    margin-top: 30px;
+    line-height: 150%;
+
+}  
+.p{
+    color: #90bde7;
+}
+@media only screen and (max-width: 600px) {
+  
+    
+.wlcm{    
+    font-size:30px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.display_text{
+    font-size: 30px;
+    margin-top: 20px;
+    line-height: 120%;
+    display: flex;
+    }
+
+}

@@ -1,0 +1,15 @@
+<!-- <p>view-categories works!</p> -->
+<mat-card>
+    <h1 mat-subheader>All Categories</h1>
+    <mat-list style="margin: 10px;">
+        <mat-list-item *ngFor="let c of categories" style="margin: 10px;">
+            <mat-icon class="mat-icon-size mt20" mat-list-icon>category</mat-icon>
+            <div class="c-title">{{c.title}}</div>
+            <div class="c-description">{{c.description}}</div>
+            <mat-divider [inset]="true"></mat-divider>
+        </mat-list-item>
+    </mat-list>
+    <div class="container text-center mt10 mb20">
+        <button mat-raised-button>Add Category</button>
+    </div>
+</mat-card>
