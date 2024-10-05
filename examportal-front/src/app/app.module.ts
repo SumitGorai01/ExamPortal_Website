@@ -4,7 +4,6 @@ import { BrowserModule, provideClientHydration } from '@angular/platform-browser
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { app } from '../../server';
 import {MatButtonModule} from '@angular/material/button';
 import { NavbarComponent } from './component/navbar/navbar.component';
 import { FooterComponent } from './component/footer/footer.component';
@@ -33,6 +32,8 @@ import {MatSlideToggleModule} from '@angular/material/slide-toggle';
 import {MatSelectModule} from '@angular/material/select';
 import { ViewCategoriesComponent } from './pages/admin/view-categories/view-categories.component';
 import { AddCategoryComponent } from './pages/admin/add-category/add-category.component';
+import { ContactComponent } from './component/contact/contact.component';
+import { FaqComponent } from './component/faq/faq.component';
 
 @NgModule({
   declarations: [
@@ -50,7 +51,10 @@ import { AddCategoryComponent } from './pages/admin/add-category/add-category.co
     AboutusComponent,
     AddQuizComponent,
     ViewCategoriesComponent,
-    AddCategoryComponent
+    AddCategoryComponent,
+    ContactComponent,
+    FaqComponent
+
   ],
   imports: [
     BrowserModule,

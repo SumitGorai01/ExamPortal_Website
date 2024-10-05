@@ -1,5 +1,0 @@
-package com.project.examportal.repository;
-
-public interface CategoryRepository {
-
-}

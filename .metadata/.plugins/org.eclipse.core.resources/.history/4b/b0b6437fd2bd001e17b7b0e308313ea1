@@ -1,9 +1,0 @@
-package com.project.examportal.entity.exam;
-
-import jakarta.persistence.Entity;
-
-@Entity
-public class Question {
-
-	private 
-}
