@@ -1,0 +1,21 @@
+<div class="container " *ngIf="isLoggedIn && login.getUserRole()=='USER'">
+    <hr>
+    <form (ngSubmit)="onSubmitFeedback(emailForm)" #emailForm="ngForm">
+      <div class="row">
+        <div class="col-md-3"></div>
+  
+        <div class="col-md-6 mt20">
+          <h2 class="border border-light mt20">Give Your Valuable feedback</h2>
+          <label for="email" class="form-label">Email address</label>
+          <input type="email" class="form-control" id="email" name="email" ngModel placeholder="name@example.com">
+       
+        
+          <label for="feedback" class="form-label">Feedback </label>
+          <textarea class="form-control" id="f_area" rows="2" name="feedback" ngModel placeholder="write your feedback..."></textarea>
+          </div>
+        <div>
+          <button type="submit" class="btn btn-primary mt20 mb20">Submit</button>
+        </div>
+      </div>
+    </form>
+  </div>

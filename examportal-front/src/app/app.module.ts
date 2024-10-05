@@ -34,6 +34,7 @@ import { ViewCategoriesComponent } from './pages/admin/view-categories/view-cate
 import { AddCategoryComponent } from './pages/admin/add-category/add-category.component';
 import { ContactComponent } from './component/contact/contact.component';
 import { FaqComponent } from './component/faq/faq.component';
+import { FeedbackComponent } from './component/feedback/feedback.component';
 
 @NgModule({
   declarations: [
@@ -53,8 +54,8 @@ import { FaqComponent } from './component/faq/faq.component';
     ViewCategoriesComponent,
     AddCategoryComponent,
     ContactComponent,
-    FaqComponent
-
+    FaqComponent,
+    FeedbackComponent,
   ],
   imports: [
     BrowserModule,
