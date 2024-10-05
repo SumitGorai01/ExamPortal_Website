@@ -1,4 +1,4 @@
-<div class="container " *ngIf="isLoggedIn && login.getUserRole()=='USER'">
+<div class="container">
     <hr>
     <form (ngSubmit)="onSubmitFeedback(emailForm)" #emailForm="ngForm">
       <div class="row">
@@ -19,3 +19,6 @@
       </div>
     </form>
   </div>
+
+  <br>
+  <br>
